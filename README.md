@@ -1,4 +1,4 @@
-### Pipeline worflow for DevOps World workshop
+### Pipeline Worflow For DevOps World Workshop
 
 ## Create Jenkins Instance
 
