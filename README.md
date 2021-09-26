@@ -15,9 +15,14 @@ docker run -d --name jenkins -p 8080:8080 -p 50000:50000 workshop-jenkins:1.0
   
 * Follow the prompts to complete the post-installazation wizard steps.
 
+## Fork Pipeline Project Repository
+* Fork this [GIT Repository](https://github.com/AplimaTraining/pipeline-project) and use your forked repo
+ to configure your Jenkins pipelines.
+
 ## Fork Shared Library Repository
 
-* Fork the shared library [GIT repository](https://github.com/AplimaTraining/shared-library)
+* Fork the shared library [GIT repository](https://github.com/AplimaTraining/shared-library) and use your forked repo
+  to define your shared library.
 
 ## Define Shared Library
 
