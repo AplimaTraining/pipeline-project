@@ -11,10 +11,20 @@ docker build -t workshop-jenkins:1.0 .
 ```bash
 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 workshop-jenkins:1.0
 ```
-* To login to your Jenkins instance, ppen a browser of your choice and type  **http://<YOUR_IP_ADDRESS>:8080**
+* To login to your Jenkins instance, open a browser of your choice and type  **http://<YOUR_IP_ADDRESS>:8080**
   
 * Follow the prompts to complete the post-installazation wizard steps.
 
 ## Fork Shared Library Repository
 
 * Fork the shared library [GIT repository](https://github.com/AplimaTraining/shared-library)
+
+## Define Shared Library
+
+*  Navigate to **Jenkins -> Manage Jenkins -> Configure System** on the Jenkins UI
+* Click **Add** under Global Pipeline Libraries section to define a new Shared library
+  * Set the following attrbutes 
+   * Name:  **shared-library**
+   * Check the toggle for **Load implicitly**
+   * Source Code Management : **GIT**
+   * Project Repository: **Enter the GIT Repo URL of your shared library repository**
