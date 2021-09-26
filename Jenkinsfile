@@ -1,3 +1,3 @@
 @Library('shared-library') _
 
-customFlow lifecyclePhase: 'compile'
+customFlow(lifecyclePhase: 'compile')
