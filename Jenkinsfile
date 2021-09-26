@@ -1,3 +1,3 @@
 @Library('shared-library') _
 
-customFlow name: "himanshu", status: "rocks"
+customFlow deployTo: "dev", lifecyclePhase: "compile"
