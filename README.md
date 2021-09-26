@@ -22,7 +22,7 @@ docker run -d --name jenkins -p 8080:8080 -p 50000:50000 workshop-jenkins:1.0
 ## Define Shared Library
 
 *  Navigate to **Jenkins -> Manage Jenkins -> Configure System** on the Jenkins UI
-* Click **Add** under Global Pipeline Libraries section to define a new Shared library
+* Click **Add** under **Global Pipeline Libraries** section to add a new shared library
   * Set the following attrbutes 
    * Name:  **shared-library**
    * Check the toggle for **Load implicitly**
