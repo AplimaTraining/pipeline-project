@@ -1,3 +1,5 @@
 @Library('shared-library') _
 
-customFlow deployTo: 'dev', lifecyclePhase: 'compile'
+node {
+   customFlow deployTo: 'dev', lifecyclePhase: 'compile'
+}
