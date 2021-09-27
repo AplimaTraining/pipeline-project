@@ -1,4 +1,4 @@
-### Pipeline Worflow For DevOps World Workshop
+### Scaling Jenkins Pipelines with Shared Libraeries DevOps World Workshop Resources
 
 ## Create Jenkins Instance
 
